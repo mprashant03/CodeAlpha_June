@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: aliceblue;
+}
+
+.container{
+	background-color: lightcoral;
+	height: 100%;
+	width: 100%;
+	background-image: url("../assets/images/puri2.jpg");
+	overflow: hidden;
+	background-position: center;
+	background-size: cover;
+}
+
+.header{
+	display: flex;
+	height: 70px;
+	/* background-color: lightpink; */
+	justify-content: space-between;
+	align-items: center;
+}
+
+li{
+	float: left;
+	display: inline;
+	padding-right: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.menu{
+	margin-left: 20px;
+}
+
+.menu-icon{
+	height: 20px;
+}
+
+.search{
+	margin-right: 20px;
+}
+
+.search-icon{
+	height: 20px;
+}
+
+.center{
+	margin-top : 60px;
+	/* background-color: lightseagreen; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* background-color: lightgoldenrodyellow; */
+	height: 400px;
+}
+
+.center-text{
+	font-family: 'Permanent Marker', cursive;
+}
+
+.top-line{
+	position: absolute;
+	top: 200px;
+	left : 650px;
+	font-size: 60px;
+}
+
+.bottom-line{
+	font-size: 110px;
+}
+
+
+.social-media{
+	/* background-color: lightpink; */
+	width: 40px;
+	margin-left:20px;
+}
+
+.social-media-icon{
+	display: block;
+	margin-bottom: 30px;
+	height: 25px;
+}
+
+.bottom{
+	/* background-color: lightseagreen; */
+	height: 200px;
+	width: 90%;
+	margin: 33px auto 0 auto;
+	/* position: absolute;
+	top: 100px; */
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.card{
+	height: 100%;
+	width: 350px;
+	/* background-color: lightpink; */
+	margin-right: 30px;
+	backdrop-filter: blur(5px);
+	/* border: 2px white solid; */
+	background-color: rgb(14, 14, 13);
+	border-radius: 10px 10px 0 0;
+	opacity: 0.5;
+	z-index: 1;
+
+}
+
+
+.card-icon{
+	float: left;
+	margin : 5px 10px 10px 10px;
+	/* background-color: lightgrey; */
+}
+.card-heading{
+	float: center;
+	margin : 5px 10px 5px 10px;
+	letter-spacing: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	/* background-color: lightgreen; */
+}
+
+.card-text{
+	text-align: left;
+	/* background-color: lightskyblue; */
+	margin: 20px 10px 20px 10px;
+	font-size: 15px;
+
+}
+
+.card-content{
+	/* background-color: lawngreen; */
+	height: 90%;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+	z-index: 3;
+	font-weight: bold;
+	color: white;
+}
+
+footer {
+    border-top: solid 0px;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align:right;
+  }
